@@ -23,6 +23,9 @@ pub fn guess_number() {
     println!("the secret number is {}", secret_number);
 }
 
+// allow this piece of code be unused, silent warnings from the compiler
+#[allow(dead_code)]
+// this is a private method by default
 fn test_mut() {
     let mut x = 5;
     println!("value is {}", x);
